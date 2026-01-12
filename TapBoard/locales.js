@@ -38,7 +38,38 @@ const translations = {
         section8_title: "8. 개인정보 처리방침의 변경",
         section8_desc: "본 개인정보 처리방침은 법령 및 방침에 따라 내용의 추가, 삭제 및 수정이 있을 시에는 앱 업데이트 공지사항 등을 통해 고지할 것입니다.",
         section8_list1: "<strong>공고 일자</strong>: 2025년 11월 21일",
-        section8_list2: "<strong>시행 일자</strong>: 2025년 11월 21일"
+        section8_list2: "<strong>시행 일자</strong>: 2025년 11월 21일",
+
+        // Support Page
+        support_title: "고객 지원",
+        support_intro: "{appName}를 이용해 주셔서 감사합니다. 앱 사용 중 발생한 문제나 궁금한 점에 대해 안내해 드립니다.",
+
+        faq_title: "자주 묻는 질문 (FAQ)",
+
+        faq_q1: "Q. 앱을 삭제하면 데이터가 사라지나요?",
+        faq_a1: "네, {appName}는 사용자의 개인정보 보호를 위해 별도의 서버에 데이터를 저장하지 않고 사용자의 기기(로컬 저장소)에만 데이터를 저장합니다. 따라서 앱을 삭제하실 경우 저장된 모든 텍스트와 설정 데이터가 함께 삭제되며 복구가 불가능합니다.",
+
+        faq_q2: "Q. {appName} 키보드는 어떻게 추가하나요?",
+        faq_a2: "{appName}를 키보드에서 사용하기 위해서는 기기 설정에서 키보드를 추가해야 합니다. 아래 순서대로 진행해 주세요.",
+        faq_a2_step1: "iPhone의 <strong>[설정]</strong> 앱을 실행합니다.",
+        faq_a2_step2: "<strong>[일반]</strong> &gt; <strong>[키보드]</strong> &gt; <strong>[키보드]</strong> 메뉴로 이동합니다.",
+        faq_a2_step3: "<strong>[새로운 키보드 추가...]</strong>를 선택합니다.",
+        faq_a2_step4: "'타사 키보드' 목록에서 <strong>{appName}Keyboard - {appName}</strong>를 선택하여 추가합니다.",
+
+        faq_q3: "Q. 구독을 취소하고 싶어요.",
+        faq_a3: "구독 관리는 Apple의 정책에 따라 사용자의 Apple ID 설정에서 직접 하셔야 합니다. [설정] > [Apple ID] > [구독] 메뉴에서 {appName} 구독을 관리하거나 취소하실 수 있습니다.",
+
+        contact_title: "문의하기",
+        contact_desc: "위의 내용으로 해결되지 않는 문제가 있거나, 앱에 대한 제안 사항이 있으시면 아래 이메일로 문의해 주세요.",
+        contact_email_label: "<strong>이메일 문의:</strong>",
+        contact_info_desc: "문의 시 아래 내용을 함께 보내주시면 더 빠르고 정확한 답변이 가능합니다.",
+        contact_info_list1: "사용 중인 기기 모델명 (예: iPhone 14 Pro)",
+        contact_info_list2: "iOS 버전 (예: iOS 17.0)",
+        contact_info_list3: "{appName} 앱 버전",
+        contact_info_list4: "문의 내용 상세 (오류 화면 캡처 등)",
+
+        footer_copy: "&copy; 2025 FINE SOLVE. All rights reserved."
+
     },
     en: {
         appNameDefault: "TapBoard",
@@ -79,7 +110,38 @@ const translations = {
         section8_title: "8. Changes to the Privacy Policy",
         section8_desc: "If there are additions, deletions, or modifications to this privacy policy according to laws and policies, we will notify you through notices such as app updates.",
         section8_list1: "<strong>Announcement Date</strong>: November 21, 2025",
-        section8_list2: "<strong>Effective Date</strong>: November 21, 2025"
+        section8_list2: "<strong>Effective Date</strong>: November 21, 2025",
+
+        // Support Page
+        support_title: "Support",
+        support_intro: "Thank you for using {appName}. Here is information regarding any issues or questions you may have while using the app.",
+
+        faq_title: "Frequently Asked Questions (FAQ)",
+
+        faq_q1: "Q. Will my data be lost if I delete the app?",
+        faq_a1: "Yes, to protect your privacy, {appName} does not store data on a separate server but only on your device (local storage). Therefore, if you delete the app, all saved texts and settings will be deleted and cannot be recovered.",
+
+        faq_q2: "Q. How do I add the {appName} keyboard?",
+        faq_a2: "To use {appName} on your keyboard, you need to add the keyboard in your device settings. Please follow the steps below.",
+        faq_a2_step1: "Open the <strong>[Settings]</strong> app on your iPhone.",
+        faq_a2_step2: "Go to <strong>[General]</strong> &gt; <strong>[Keyboard]</strong> &gt; <strong>[Keyboards]</strong>.",
+        faq_a2_step3: "Select <strong>[Add New Keyboard...]</strong>.",
+        faq_a2_step4: "Select <strong>{appName}Keyboard - {appName}</strong> from the 'Third-Party Keyboards' list to add it.",
+
+        faq_q3: "Q. I want to cancel my subscription.",
+        faq_a3: "Subscription management must be done directly in your Apple ID settings according to Apple's policy. You can manage or cancel your {appName} subscription in [Settings] > [Apple ID] > [Subscriptions].",
+
+        contact_title: "Contact Us",
+        contact_desc: "If you have any issues not resolved by the above, or have any suggestions for the app, please contact us at the email below.",
+        contact_email_label: "<strong>Email Inquiry:</strong>",
+        contact_info_desc: "Please include the following information when contacting us for a faster and more accurate response.",
+        contact_info_list1: "Device Model (e.g., iPhone 14 Pro)",
+        contact_info_list2: "iOS Version (e.g., iOS 17.0)",
+        contact_info_list3: "{appName} App Version",
+        contact_info_list4: "Details of inquiry (Screenshot of error, etc.)",
+
+        footer_copy: "&copy; 2025 FINE SOLVE. All rights reserved."
+
     },
     ja: {
         appNameDefault: "TapBoard",
@@ -120,6 +182,37 @@ const translations = {
         section8_title: "8. プライバシーポリシーの変更",
         section8_desc: "本プライバシーポリシーは、法令および方針に従って内容の追加、削除、および修正がある場合、アプリのアップデートのお知らせなどを通じて通知します。",
         section8_list1: "<strong>公告日</strong>: 2025年 11月 21日",
-        section8_list2: "<strong>施行日</strong>: 2025年 11月 21日"
+        section8_list2: "<strong>施行日</strong>: 2025年 11月 21日",
+
+        // Support Page
+        support_title: "サポート",
+        support_intro: "{appName}をご利用いただきありがとうございます。アプリの使用中に発生した問題やご不明な点についてご案内いたします。",
+
+        faq_title: "よくある質問 (FAQ)",
+
+        faq_q1: "Q. アプリを削除するとデータは消えますか？",
+        faq_a1: "はい、{appName}はユーザーの個人情報保護のため、別途サーバーにデータを保存せず、ユーザーの端末（ローカルストレージ）にのみデータを保存します。したがって、アプリを削除された場合、保存されたすべてのテキストと設定データも削除され、復元することはできません。",
+
+        faq_q2: "Q. {appName}キーボードはどのように追加しますか？",
+        faq_a2: "{appName}をキーボードで使用するためには、端末の設定でキーボードを追加する必要があります。以下の手順で進めてください。",
+        faq_a2_step1: "iPhoneの<strong>[設定]</strong>アプリを開きます。",
+        faq_a2_step2: "<strong>[一般]</strong> &gt; <strong>[キーボード]</strong> &gt; <strong>[キーボード]</strong>メニューに移動します。",
+        faq_a2_step3: "<strong>[新しいキーボードを追加...]</strong>を選択します。",
+        faq_a2_step4: "'他社製キーボード'リストから<strong>{appName}Keyboard - {appName}</strong>を選択して追加します。",
+
+        faq_q3: "Q. サブスクリプションをキャンセルしたいです。",
+        faq_a3: "サブスクリプションの管理は、Appleのポリシーに従い、ユーザーのApple ID設定で直接行っていただく必要があります。[設定] > [Apple ID] > [サブスクリプション]メニューから{appName}のサブスクリプションを管理またはキャンセルできます。",
+
+        contact_title: "お問い合わせ",
+        contact_desc: "上記の内容で解決しない問題がある場合、またはアプリに関するご提案がある場合は、以下のメールでお問い合わせください。",
+        contact_email_label: "<strong>メールでのお問い合わせ:</strong>",
+        contact_info_desc: "お問い合わせの際、以下の内容を一緒にお送りいただければ、より迅速で正確な回答が可能です。",
+        contact_info_list1: "ご利用の端末モデル名（例：iPhone 14 Pro）",
+        contact_info_list2: "iOSバージョン（例：iOS 17.0）",
+        contact_info_list3: "{appName}アプリバージョン",
+        contact_info_list4: "お問い合わせ内容の詳細（エラー画面のキャプチャなど）",
+
+        footer_copy: "&copy; 2025 FINE SOLVE. All rights reserved."
+
     }
 };
