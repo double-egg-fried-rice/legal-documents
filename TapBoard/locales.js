@@ -4,12 +4,12 @@ const translations = {
         title: "개인정보 처리방침",
         intro_company: "<strong>파인솔브 (FINE SOLVE)</strong>(이하 \"회사\")는 사용자의 개인정보를 중요시하며, 「개인정보 보호법」 및 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 등 관련 법령을 준수하고 있습니다.",
         intro_app: "본 앱 <strong>{appName}</strong>는 별도의 서버를 통해 사용자의 개인정보를 수집하거나 저장하지 않습니다. 회사는 본 방침을 통해 사용자가 앱을 안심하고 사용할 수 있도록 개인정보 처리 현황을 투명하게 공개합니다.",
-        
+
         section1_title: "1. 수집하는 개인정보의 항목 및 수집 방법",
         section1_desc: "<strong>{appName}</strong>는 회원가입 절차가 없으며, 사용자의 식별 가능한 개인정보(이름, 전화번호, 이메일 등)를 별도의 서버로 전송하거나 수집하지 않습니다.",
         section1_list1: "<strong>앱 내 데이터</strong>: 사용자가 앱에 저장하는 텍스트 데이터(상용구, 메모 등)와 그룹 정보는 사용자의 기기 내(로컬 저장소)에만 저장되며, 회사로 전송되지 않습니다.",
         section1_list2: "<strong>키보드 확장 기능</strong>: {appName} 키보드를 사용하여 입력하는 정보는 앱의 기능(저장된 텍스트 붙여넣기)을 수행하기 위해서만 사용됩니다. 사용자가 키보드를 통해 입력하는 비밀번호, 신용카드 번호, 주소 등 어떠한 민감 정보도 수집하거나 외부로 전송하지 않습니다.",
-        
+
         section2_title: "2. 개인정보의 처리 목적",
         section2_desc: "앱은 오직 사용자의 기기 내에서 서비스를 제공하기 위한 목적으로만 데이터를 처리합니다.",
         section2_list1: "사용자가 저장한 텍스트 관리 및 키보드 입력을 통한 붙여넣기 기능 제공",
@@ -41,16 +41,16 @@ const translations = {
         section8_list2: "<strong>시행 일자</strong>: 2025년 11월 21일"
     },
     en: {
-        appNameDefault: "SnapDeck",
+        appNameDefault: "TapBoard",
         title: "Privacy Policy",
         intro_company: "<strong>FINE SOLVE</strong> (hereinafter referred to as \"the Company\") values users' personal information and complies with relevant laws such as the Personal Information Protection Act.",
         intro_app: "The app <strong>{appName}</strong> does not collect or store users' personal information through a separate server. The Company transparently discloses the status of personal information processing through this policy so that users can use the app with confidence.",
-        
+
         section1_title: "1. Items of Personal Information Collected and Method of Collection",
         section1_desc: "<strong>{appName}</strong> does not have a membership registration process, and does not transmit or collect personally identifiable information (name, phone number, email, etc.) to a separate server.",
         section1_list1: "<strong>In-App Data</strong>: Text data (phrases, memos, etc.) and group information saved by the user in the app are stored only on the user's device (local storage) and are not transmitted to the Company.",
         section1_list2: "<strong>Keyboard Extension</strong>: Information entered using the {appName} keyboard is used only to perform the app's function (pasting saved text). We do not collect or transmit any sensitive information such as passwords, credit card numbers, or addresses entered through the keyboard.",
-        
+
         section2_title: "2. Purpose of Processing Personal Information",
         section2_desc: "The app processes data only for the purpose of providing services within the user's device.",
         section2_list1: "Managing user-saved text and providing paste functionality via keyboard input",
@@ -86,12 +86,12 @@ const translations = {
         title: "プライバシーポリシー",
         intro_company: "<strong>FINE SOLVE</strong>（以下「当社」といいます）は、ユーザーの個人情報を重要視し、個人情報保護法などの関連法令を遵守しています。",
         intro_app: "本アプリ <strong>{appName}</strong> は、別途サーバーを通じてユーザーの個人情報を収集または保存することはありません。当社は、ユーザーが安心してアプリを利用できるよう、本方針を通じて個人情報の取り扱い状況を透明に公開します。",
-        
+
         section1_title: "1. 収集する個人情報の項目および収集方法",
         section1_desc: "<strong>{appName}</strong> には会員登録の手続きがなく、ユーザーの識別可能な個人情報（氏名、電話番号、メールアドレスなど）を別途サーバーへ送信または収集することはありません。",
         section1_list1: "<strong>アプリ内データ</strong>: ユーザーがアプリに保存するテキストデータ（定型文、メモなど）やグループ情報は、ユーザーの端末内（ローカルストレージ）にのみ保存され、当社へは送信されません。",
         section1_list2: "<strong>キーボード拡張機能</strong>: {appName} キーボードを使用して入力される情報は、アプリの機能（保存されたテキストの貼り付け）を実行するためにのみ使用されます。パスワード、クレジットカード番号、住所など、キーボードを通じて入力されるいかなる機微情報も収集したり外部へ送信したりすることはありません。",
-        
+
         section2_title: "2. 個人情報の利用目的",
         section2_desc: "本アプリは、ユーザーの端末内でサービスを提供することのみを目的としてデータを処理します。",
         section2_list1: "ユーザーが保存したテキストの管理およびキーボード入力による貼り付け機能の提供",
